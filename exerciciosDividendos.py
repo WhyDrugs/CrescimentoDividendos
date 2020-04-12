@@ -12,7 +12,7 @@ def main():
 
 
     print('Com o aporte inicial você comprou: {} cotas'.format(qtdCotas))
-    print('Com o aporte inicial sobrou: {} em caixa'.format(caixa))
+    print('Com o aporte inicial sobrou: {:.2f} em caixa'.format(caixa))
     print('Com o aporte Inicial tem rendimento mensal de: {:.2f}'.format(rendimentoMensal))
 
     indice = 0
