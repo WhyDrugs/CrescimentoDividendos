@@ -26,7 +26,7 @@ def main():
     
         
         rendimentoMensal = qtdCotas * rendimentoCota
-        print('No mês {} você tem {} cotas, {:.2f} em caixa e {:.2f} de rendimento mensal'.format(indice,qtdCotas,caixa,rendimentoMensal))
+        print('Mês {}: cotas={},  caixa = {:.2f} e rendimento mensal = {:.2f}'.format(indice,qtdCotas,caixa,rendimentoMensal))
 
 
 
